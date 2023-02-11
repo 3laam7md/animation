@@ -1,0 +1,253 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    background-color: #f5f3f4;
+}
+
+.parent{
+    position: relative;
+}
+
+.div1{
+    width: 150px;
+    height: 50px;
+    background-color: #0d1b2a;
+    border-radius: 5px;
+    position: absolute;
+
+
+    animation-name: div1;
+    animation-duration: 5s;
+    animation-delay: 3s;
+   
+
+
+}
+
+@keyframes div1 {
+    0%{background-color: #0d1b2a; left: 0;}
+    
+    50%{background-color: #415a77; left:1400px;}
+    
+    100%{background-color: #0d1b2a; left: 0; }
+    
+}
+
+
+
+
+.div2{
+    width: 150px;
+    height: 50px;
+    background-color: #0d1b2a;
+    border-radius: 5px;
+    position: absolute;
+    margin-top: 55px;
+    right: 0;
+
+
+    animation-name: div2;
+    animation-duration: 5s;
+    animation-delay: 8s;
+    
+
+
+}
+
+@keyframes div2 {
+    0%{background-color: #0d1b2a; right: 0right;}
+    50%{background-color: #415a77; right: 1400px;}
+    100%{background-color: #0d1b2a; right: 0; }
+    
+}
+
+
+
+.div3{
+    width: 150px;
+    height: 50px;
+    background-color: #0d1b2a;
+    border-radius: 5px;
+    position: absolute;
+    margin-top: 110px;
+
+
+    animation-name: div3;
+    animation-duration: 5s;
+    animation-delay: 13s;
+
+
+}
+
+@keyframes div3 {
+    0%{background-color: #0d1b2a; left: 0;}
+    
+    50%{background-color: #415a77; left:1400px;}
+    
+    100%{background-color: #0d1b2a; left: 0; }
+    
+}
+
+
+.div4{
+    width: 150px;
+    height: 50px;
+    background-color: #0d1b2a;
+    border-radius: 5px;
+    position: absolute;
+    margin-top: 165px;
+    right: 0;
+
+
+    animation-name: div4;
+    animation-duration: 5s;
+    animation-delay: 18s;
+    
+
+
+}
+
+@keyframes div4{
+    0%{background-color: #0d1b2a; right: 0right;}
+    50%{background-color: #415a77; right: 1400px;}
+    100%{background-color: #0d1b2a; right: 0; }
+    
+}
+
+
+
+.div5{
+    width: 150px;
+    height: 50px;
+    background-color: #0d1b2a;
+    border-radius: 5px;
+    position: absolute;
+    margin-top: 220px;
+
+
+    animation-name: div5;
+    animation-duration: 5s;
+    animation-delay: 23s;
+
+
+}
+
+@keyframes div5 {
+    0%{background-color: #0d1b2a; left: 0;}
+    
+    50%{background-color: #415a77; left:1400px;}
+    
+    100%{background-color: #0d1b2a; left: 0; }
+    
+}
+
+
+
+.div6{
+    width: 150px;
+    height: 50px;
+    background-color: #0d1b2a;
+    border-radius: 5px;
+    position: absolute;
+    margin-top: 275px;
+    right: 0;
+
+
+    animation-name: div6;
+    animation-duration: 5s;
+    animation-delay: 28s;
+    
+
+
+}
+
+@keyframes div6{
+    0%{background-color: #0d1b2a; right: 0right;}
+    50%{background-color: #415a77; right: 1400px;}
+    100%{background-color: #0d1b2a; right: 0; }
+    
+}
+
+
+.div7{
+    width: 300px;
+    height: 100px;
+    background-color: #003249;
+    border-radius: 5px;
+    position: absolute;
+    margin-top: 400px;
+    left: 100px;
+    
+
+    animation-name: div7;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+
+}
+
+@keyframes div7{
+    from{background-color: #003249; width: 300px; top: 10px;}
+    to{background-color: #007ea7; width: 50px; top: 100px;}
+
+
+}
+
+
+
+
+.div8{
+    width: 300px;
+    height: 100px;
+    background-color: #003249;
+    border-radius: 5px;
+    position: absolute;
+    margin-top: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+
+    animation-name: div8;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+
+}
+
+@keyframes div8{
+    from{background-color: #003249; width: 300px; top: 10px;}
+    to{background-color: #007ea7; width: 50px; top: 100px;}
+
+
+}
+
+.div9{
+    width: 300px;
+    height: 100px;
+    background-color: #003249;
+    border-radius: 5px;
+    position: absolute;
+    margin-top: 400px;
+    margin-left: auto;
+    right: 100px;
+   
+    animation-name: div9;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+
+}
+
+@keyframes div9{
+    from{background-color: #003249; width: 300px; top: 10px;}
+    to{background-color: #007ea7; width: 50px; top: 100px;}
+
+
+}
